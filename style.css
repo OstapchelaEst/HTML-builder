@@ -169,3 +169,17 @@ main .container {
    border-color: #8F5515;
    outline: 0;
  }
+   font-size: 24px;
+   border: 0;
+   outline: 0;
+   cursor: pointer;
+   transition: .3s;
+ }
+ 
+ .header-button:hover {
+   background-color: #E4902D;
+ }
+ 
+ .header-button:active {
+   background-color: #8F5515;
+ }
