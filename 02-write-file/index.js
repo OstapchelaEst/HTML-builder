@@ -24,7 +24,7 @@ readline.on('line', data => {
 
 process.on('exit', code => {
    if (code === 0) {
-      console.log('Прощай');
+      console.log('\nПрощай');
    } else {
       console.log(code);
    }
